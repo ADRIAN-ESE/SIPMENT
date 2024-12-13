@@ -1,0 +1,86 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(845aaab32c4b7e39a418bfb19e5f364d.jpg);
+  background-attachment: fixed;
+}
+
+.ALPHA-SHIPMENT {
+  max-width: 450px;
+  margin: 60px auto;
+  padding: 20px;
+  background-image: url(1a17557b4dbb376bce2e3c533ba82663.jpg);
+  border: 1px solid #42A5F5;
+  border-radius: 20PX;
+  box-shadow: 0 0 10px #4FC3F7;
+}
+
+h2 {
+  color: #03a9f49c;
+  text-align: center;
+  background-color: #03a9f400;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #E0F7FA;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #3e748e61;
+}
+
+button[type="submit"] {
+  background-color: #4c5eafa1;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e748eb0;
+}
+
+#submission-display {
+  background-color: #3e748e;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#submission-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#submission-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #3e748e;
+  border: 1px solid #4c5eaf;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #3e748e;
+}
+
+#submission-list li:nth-child(odd) {
+  background-color: #3e748e;
+}
